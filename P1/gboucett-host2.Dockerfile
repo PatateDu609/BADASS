@@ -1,4 +1,4 @@
-FROM quay.io/frrouting/frr:9.0.2
+FROM frrouting/frr
 
 ENV DAEMONS="zebra bgpd ospfd isisd"
 

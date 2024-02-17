@@ -1,0 +1,5 @@
+auto eth1
+iface eth1 inet static
+    pre-up /sbin/ip link set dev eth0 name eth1
+	address 20.1.1.1
+	netmask 255.255.255.0

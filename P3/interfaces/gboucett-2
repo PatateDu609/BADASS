@@ -1,4 +1,4 @@
-# Setting up VXLAN Dynamically
+# Setting up VXLAN
 auto vxlan10
 iface vxlan10 inet manual
     pre-up /sbin/ip link add vxlan10 type vxlan id 10 dstport 4789
